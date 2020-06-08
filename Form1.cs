@@ -17,20 +17,21 @@ namespace arduino_serial
         {
             InitializeComponent();
         }
-
-        private void Form1_Load(object sender, EventArgs e)
+        public void Form1_Load(object sender, EventArgs e)
         {
-           
-            string[] io_pins = SerialPort.GetPortNames();
+
+          
         
             serialPort1.PortName = "COM3";
             serialPort1.Open();
             serialPort1.Write("b");
         }
 
+   
         private void button1_Click(object sender, EventArgs e)
         {
             serialPort1.Write("1");
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -46,6 +47,17 @@ namespace arduino_serial
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             serialPort1.Write("2");
+        }
+        public string okuma;
+        public void timer1_Tick(object sender, EventArgs e)
+        {
+            okuma = serialPort1.ReadLine();
+
+            if (okuma=="a")
+            {
+                MessageBox.Show("naber");
+                this.Close();
+            }
         }
     }
 }

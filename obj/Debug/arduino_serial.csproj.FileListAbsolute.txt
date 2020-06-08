@@ -1,0 +1,10 @@
+C:\Users\omerc\source\repos\arduino_serial\bin\Debug\arduino_serial.exe.config
+C:\Users\omerc\source\repos\arduino_serial\bin\Debug\arduino_serial.exe
+C:\Users\omerc\source\repos\arduino_serial\bin\Debug\arduino_serial.pdb
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.csprojAssemblyReference.cache
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.Form1.resources
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.Properties.Resources.resources
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.csproj.GenerateResource.cache
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.exe
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.pdb
+C:\Users\omerc\source\repos\arduino_serial\obj\Debug\arduino_serial.csproj.CoreCompileInputs.cache
