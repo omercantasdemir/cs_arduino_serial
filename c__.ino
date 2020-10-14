@@ -3,22 +3,22 @@
 void setup() {
   pinMode(led_yesil,OUTPUT);
   pinMode(led_kirmizi,OUTPUT);
-Serial.begin(9600);
+  Serial.begin(9600);
 }
 void baslangic();
-char midone;
+char serialval;
 void loop() {
-midone=Serial.read();
-if(midone=='1')
+serialval=Serial.read();
+if(serialval=='1')
 {digitalWrite(led_kirmizi,HIGH);
 digitalWrite(led_yesil,LOW);}
-else if(midone=='2')
+else if(serialval=='2')
 {digitalWrite(led_kirmizi,LOW);
 digitalWrite(led_yesil,LOW);}
-else if(midone=='3')
+else if(serialval=='3')
 {digitalWrite(led_yesil,HIGH);
 digitalWrite(led_kirmizi,LOW);}
-else if(midone=='b'){baslangic();}
+else if(serialval=='b'){baslangic();}
 
   
   
